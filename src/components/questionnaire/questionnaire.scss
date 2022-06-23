@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.FatherBlockSeven{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.QuestionnaireLogoClass{
+    color: #DD990E;
+    text-align: center;
+}
+
+.QuestionnaireLogoBlock{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.QuestionnaireInputClass{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    background-color: #FAF8FF;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.QuestionnaireLiBlock{
+    border-radius: 10px;
+    background: #FFFFFF;
+    color: rgba(158, 95, 75, 0.5);
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.QuestionnaireButton{
+    background-color:  #8C50FF;
+    color:#FFFFFF;
+    font-size: 25px;
+    border-radius: 19.0127px;
+    width: 65%;
+    height: 13%;
+    margin-top: 20px;
+}
+
+.QuestionnaireRools{
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.img7Class{
+    width: 25%;
+}

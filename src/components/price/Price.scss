@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.FatherBlockClass{
+    width: 100%;
+}
+
+.priceBlockClass{
+    width: 100%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+
+.img5Class{
+    width: 30%;
+}
+
+.priceCouchClass{
+    display: flex;
+    flex-direction: column;
+}
+
+.priceCouchLogoClass{
+    color: #DD990E;
+    font-size: 40px;
+    text-align: center;
+}
+
+.priceLogoText{
+    color: #000000;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.priceLogoTextOne{
+    color: #000000;
+    font-size: 25px;
+    margin-top: 40px;
+}

@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.FatherBlockNine{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.FooterBlockClass{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+}
+
+.FooterText{
+    font-size: 20px;
+}
+
+.EducationBlockClass{
+    display: flex;
+    align-items: center;
+    border-left:  3.54211px solid rgba(232, 163, 10, 0.3);
+    border-right:  3.54211px solid rgba(232, 163, 10, 0.3);
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 100%;
+}

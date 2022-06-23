@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.FatherBlockClass{
+    width: 100%;
+}
+
+
+.headerClass{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.img1Class{
+    width: 50%;
+}
+
+
+
+.HeaderTextClass{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+
+.HeaderLinkOne{
+    text-decoration: none;
+    color: black;
+}
+.HeaderTextClass{
+    font-size: 18px;
+}
+
+.HeaderPhoneEmailClass{
+    display: flex;
+    flex-direction: column;
+    
+}

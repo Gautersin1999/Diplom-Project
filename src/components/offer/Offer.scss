@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+.fatherBlock{
+     width: 100%;
+    margin-top: 60px;
+}
+
+.offerLogoClass{
+    color: #DD990E;
+    font-size: 40px;
+    text-align: center;
+}
+
+.OfferBlockOne{
+    display: flex;
+    justify-content: space-around;
+}
+
+.OfferExpplainBlock{
+   display: flex;
+   flex-direction: column;
+   margin-top: 110px;
+   background: rgba(140, 80, 255, 0.04);
+   border-radius: 20px;
+}
+
+.OfferExpplainLogoBloc{
+    font-size: 25px;
+}
+
+.OfferLiClass{
+    color: #DD990E;
+    font-size: 20px;
+}
+
+.OfferliTextClass{
+    color: black;
+}
+
+.resultClassBlock{
+    margin-top: 50px;
+}
+.resultClass{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.img4Class{
+    width: 15%;
+
+}

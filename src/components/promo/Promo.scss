@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.FatherBlockClass{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row !important;
+}
+
+.promoBlockOneClass{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.promotextone{
+    color: #DD990E;
+    font-size: 40px;
+}
+
+.promotexttwo{
+    font-size: 28px;
+    margin-top: 25px;
+}
+
+.promoButtonClass{
+    margin-top: 25px;
+    background-color: #8C50FF;
+    color: white;
+    font-size: 25px;
+    border-radius: 19.0127px;
+    width: 250px;
+    height: 50px;
+}
+
+
+
+.img2Class{
+    width: 35%;
+}

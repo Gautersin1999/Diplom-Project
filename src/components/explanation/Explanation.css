@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0%;
+}
+
+.FaterBlockClass {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.explainLogoClass {
+  color: #DD990E;
+  font-size: 40px;
+  text-align: center;
+}
+
+.childBlockClass {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.img3Class {
+  width: 30%;
+}
+
+.childTwoBlockClass {
+  display: flex;
+  flex-direction: column;
+}
+
+.explainTextClass {
+  font-size: 25px;
+}
+
+.explainTextClass1 {
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.explainTextClass2 {
+  color: #B98080;
+  font-size: 20px;
+  margin-top: 20px;
+}/*# sourceMappingURL=Explanation.css.map */
