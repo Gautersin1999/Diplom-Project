@@ -8,10 +8,10 @@ function SocialIcons(){
         <div className='FatherBlockEight'>
           <h1 className='ContactsClass'>Контакты</h1>
           <div className='ContactsIconsClass'>
-             <img className='ContactsImgClass' src={img8} />
-             <img src={img9}/>
-             <img src={img10} />
-             <img src={img11}/>
+             <a className='telegramlink' href='https://www.whatsapp.com/'><img className='ContactsImgClass' src={img8} /></a>
+             <a href='https://www.instagram.com/'> <img src={img9}/></a>
+             <a href='https://web.telegram.org/k/'><img src={img10} /></a>
+             <a href='https://www.viber.com/ru/'><img src={img11}/></a>
           </div>
         </div>
     )

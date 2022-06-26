@@ -11,7 +11,7 @@ function Header() {
         color:'black'
      }
     return (
-        <div className='FatherBlockClass'>
+        <div className='FatherBlockClassOne'>
             <div className='headerClass'>
                <NavLink  to='/'> <img className='img1Class' src={img1} /></NavLink> 
                 <div className='HeaderTextClass'>

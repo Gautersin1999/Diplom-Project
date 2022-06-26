@@ -6,7 +6,7 @@ function Questionnaire() {
     return (
         <div className='FatherBlockSeven'>
             <h1 className='QuestionnaireLogoClass'>Записаться на бесплатную консультацию<br /> по обучению</h1>
-            <div className='QuestionnaireLogoBlock'>
+            <div id='bot' className='QuestionnaireLogoBlock'>
                 <div>
                     <div className='QuestionnaireInputClass'>
                         <input className='QuestionnaireLiBlock' type="text" placeholder='Имя' />
