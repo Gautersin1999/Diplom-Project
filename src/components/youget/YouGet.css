@@ -1,1 +1,89 @@
-/*# sourceMappingURL=YouGet.css.map */
+* {
+  margin: 0;
+  padding: 0%;
+}
+
+.youGetFatherBlock {
+  width: 100%;
+}
+
+.youGetInformationBlock {
+  margin-top: 5%;
+  border-radius: 30px;
+  background-color: #FAF8FF;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.getBlockOne {
+  display: flex;
+  justify-content: center;
+}
+
+.getLogo {
+  color: #DD990E;
+  margin-top: 5%;
+}
+
+.getBlockTwo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15%;
+  margin-top: 5%;
+}
+
+.waitText {
+  font-size: 18px;
+  color: black;
+}
+
+.getBlockThree {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20%;
+}
+
+.getBlockFour {
+  text-align: center;
+}
+
+.modulLogo {
+  color: white;
+  border-radius: 50px;
+  background-color: #DD990E;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.modulText {
+  color: black;
+  font-size: 25px;
+}
+
+.youGetListBlosk {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1%;
+}
+
+.listBlockClass {
+  border-bottom: 1px solid;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.ListClass {
+  font-size: 20px;
+  margin-top: 20%;
+  margin-left: 8%;
+}
+
+.listButton {
+  border-radius: 12px;
+  font-size: 18px;
+  background-color: #8C50FF;
+  color: white;
+  height: 20%;
+  padding: 17px 48px;
+}/*# sourceMappingURL=YouGet.css.map */

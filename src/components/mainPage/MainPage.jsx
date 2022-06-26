@@ -1,3 +1,4 @@
+import Coaches from '../coaches/Coaches';
 import Cost from '../cost/Cost';
 import Explanation from '../explanation/Explanation';
 import Footer from '../footer/Footer';
@@ -7,6 +8,7 @@ import Price from '../price/Price';
 import Promo from '../promo/Promo';
 import Questionnaire from '../questionnaire/questionnaire';
 import SocialIcons from '../socialIcons/SocialIcons';
+import TimeList from '../timeList/TimeList';
 import './MainPage.css'
 function MainPage(){
     return(
@@ -18,6 +20,7 @@ function MainPage(){
       <Price />
       <Cost />
       <Questionnaire />
+      <TimeList />
       <SocialIcons />
       <Footer />
         </div>

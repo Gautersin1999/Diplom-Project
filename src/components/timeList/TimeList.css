@@ -1,0 +1,144 @@
+.marginBlock {
+  margin-top: 10%;
+}
+
+.coachesFatherBlockClass {
+  width: 100%;
+}
+
+.coachesLogoClass {
+  font-size: 70px;
+  color: #DD990E;
+  text-align: center;
+}
+
+.priceTimeListBlock {
+  display: flex;
+  justify-content: center;
+}
+
+.priceTimeListBlockOne {
+  border-radius: 20px;
+  border-color: transparent;
+  box-shadow: 0px 5px 12px 5px black;
+  background-color: rgb(122, 129, 209);
+  text-align: center;
+  margin-top: 5%;
+  width: 20%;
+}
+
+.priceTimeListBlockTwo {
+  border-radius: 20px;
+  border-color: transparent;
+  box-shadow: 0px 5px 12px 5px black;
+  background-color: rgb(121, 194, 209);
+  text-align: center;
+  margin-top: 2%;
+  width: 20%;
+}
+
+.priceTimeListBlockThree {
+  border-radius: 20px;
+  border-color: transparent;
+  box-shadow: 0px 5px 12px 5px black;
+  background-color: rgb(122, 129, 209);
+  text-align: center;
+  margin-top: 5%;
+  width: 20%;
+}
+
+.priceButtonBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.priceTimelogo {
+  color: #ffffff;
+  font-size: 24px;
+  margin-top: 3%;
+}
+
+.priceTimeText {
+  color: #ffffff;
+  font-size: 24px;
+  margin-top: 5%;
+}
+
+.priceTimeTextThree {
+  color: #ffffff;
+  font-size: 24px;
+  margin-top: 3%;
+}
+
+.priceTimeNumbers {
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 8%;
+}
+
+.priceTimeNumbersThree {
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 15%;
+}
+
+.priceButtonOne {
+  margin-top: 5%;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+  border-width: 2px;
+  border-radius: 10px;
+  border-color: #f2bf05;
+  border-style: solid;
+  background-color: transparent;
+  box-shadow: 0px 5px 20px 5px rgba(255, 205, 41, 0.2);
+  width: 80%;
+}
+
+.priceButtonTwo {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+  border-radius: 10px;
+  background-color: #f2bf05;
+  margin-top: 5%;
+  width: 80%;
+}
+
+.priceButtonOneTwo {
+  margin-top: 10%;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+  border-width: 2px;
+  border-radius: 10px;
+  border-color: #f2bf05;
+  border-style: solid;
+  background-color: transparent;
+  box-shadow: 0px 5px 20px 5px rgba(255, 205, 41, 0.2);
+  width: 80%;
+}
+
+.priceButtonTwoTwo {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+  border-radius: 10px;
+  background-color: #f2bf05;
+  margin-top: 15%;
+  width: 80%;
+}
+
+.priceButtonThree {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+  border-radius: 10px;
+  background-color: #f2bf05;
+  margin-top: 15%;
+  width: 80%;
+}/*# sourceMappingURL=TimeList.css.map */

@@ -1,0 +1,191 @@
+html:
+
+<div className='coachesFatherBlockClass'>
+            <Header />
+            <Price />
+            <Cost />
+            <Questionnaire />
+            <div className='marginBlock'>
+                <h1 className='coachesLogoClass'>Цены:</h1>
+                <div className='priceTimeListBlock'>
+                    <div className='priceTimeListBlockOne'>
+                        <h3 className='priceTimelogo'>Полный курс:</h3>
+                        <p className='priceTimeText'>1) Вт/Чт 19.00-21.00</p>
+                        <p className='priceTimeText'>2) Пн/Ср 19.00-21.00</p>
+                        <p className='priceTimeText'>3) Суббота 12.00-16.00</p>
+                        <h3 className='priceTimeNumbers'>99 USD</h3>
+                        <div className='priceButtonBlock'>
+                            <button className='priceButtonOne'>Хочу учиться!</button>
+                            <button className='priceButtonTwo'>Оплатить курс</button>
+                        </div>
+                    </div>
+
+                    <div className='priceTimeListBlockTwo'>
+                        <h3 className='priceTimelogo'>Пробное занятие</h3>
+                        <p className='priceTimeText'>Четверг</p>
+                        <p className='priceTimeText'>23 июня в 19.00.</p>
+                        <h3 className='priceTimeNumbers'>20 BYN</h3>
+                        <div className='priceButtonBlock'>
+                            <button className='priceButtonOneTwo'>Записаться</button>
+                            <button className='priceButtonTwoTwo'>Оплатить курс</button>
+                        </div>
+                    </div>
+
+                    <div className='priceTimeListBlockThree'>
+                        <p className='priceTimeTextThree'>Приведи друга и<br /> получи скидку себе и<br /> другу</p>
+                        <h3 className='priceTimeNumbersThree'>10%</h3>
+                        <button className='priceButtonThree'>Оставить заявку</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+scss:
+
+
+.marginBlock{
+    margin-top: 18%;
+}
+.coachesFatherBlockClass{
+    width: 100%;
+}
+
+.coachesLogoClass{
+    font-size: 70px;
+    color: #DD990E;
+    text-align: center;
+}
+
+.priceTimeListBlock{
+    display: flex;
+    justify-content: center;
+}
+
+.priceTimeListBlockOne{
+    border-radius: 20px;
+    border-color: transparent;
+    box-shadow: 0px 5px 12px 5px rgba($color: #000000, $alpha: 1.0);
+    background-color: rgba(122,129,209,1);
+    text-align: center;
+    margin-top: 5%;
+    width: 20%;
+}
+
+.priceTimeListBlockTwo{
+    border-radius: 20px;
+    border-color: transparent;
+    box-shadow: 0px 5px 12px 5px rgba($color: #000000, $alpha: 1.0);
+    background-color: rgba(121,194,209,1);
+    text-align: center;
+    margin-top: 2%;
+    width: 20%;
+}
+.priceTimeListBlockThree{
+    border-radius: 20px;
+    border-color: transparent;
+    box-shadow: 0px 5px 12px 5px rgba($color: #000000, $alpha: 1.0);
+    background-color: rgba(122,129,209,1);
+    text-align: center;
+    margin-top: 5%;
+    width: 20%;
+}
+
+.priceButtonBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.priceTimelogo{
+    color: #ffffff;
+    font-size: 24px;
+    margin-top: 3%;
+}
+
+.priceTimeText{
+    color: #ffffff;
+    font-size: 24px;
+    margin-top: 5%;
+}
+
+.priceTimeTextThree{
+    color: #ffffff;
+    font-size: 24px;
+    margin-top: 3%;
+}
+
+.priceTimeNumbers{
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 8%;
+}
+
+.priceTimeNumbersThree{
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 15%;
+}
+
+.priceButtonOne{
+    margin-top: 5%;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: #f2bf05;
+    border-style: solid;
+    background-color: transparent;
+    box-shadow: 0px 5px 20px 5px rgb(255 205 41 / 20%);
+    width: 80%;
+}
+
+.priceButtonTwo{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: #f2bf05;
+    margin-top: 5%;
+    width: 80%;
+}
+
+.priceButtonOneTwo{
+    margin-top: 10%;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: #f2bf05;
+    border-style: solid;
+    background-color: transparent;
+    box-shadow: 0px 5px 20px 5px rgb(255 205 41 / 20%);
+    width: 80%;
+
+}
+
+.priceButtonTwoTwo{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: #f2bf05;
+    margin-top: 15%;
+    width: 80%;
+}
+
+.priceButtonThree{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: #f2bf05;
+    margin-top: 15%;
+    width: 80%;
+}
+

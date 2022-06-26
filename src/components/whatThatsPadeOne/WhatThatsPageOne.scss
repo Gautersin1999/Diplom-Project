@@ -6,9 +6,37 @@
 .FatherBloskTen{
     width: 100%;
 }
+.whatThatImgClass{
+ width: 80%;
+ margin-top: 3%;
+}
 
-.PageTwoLogo{
-color: #DD990E;
-text-align: center;
+.whatThatExplanationClass{
+display: flexs;
 margin-top: 5%;
+}
+.whatThatTextOne{
+    font-size: 20px;
+    margin-top: 6%;
+}
+.whatThatTexttwo{
+    font-size: 20px;
+    margin-top: 6%;
+    color: #B98080;
+}
+
+.whatThatExplanationClass{
+    display: flex;
+}
+
+.whatThatBlockOne{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.whatThatTitle{
+    font-size: 25px;
+    color: #DD990E;
 }
