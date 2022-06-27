@@ -1,0 +1,146 @@
+@media(max-width:768px){
+    .img1Class {
+        width: 30%;
+    }
+    .HeaderTextClass {
+        width: 40%;
+    }
+    .promotextone {
+        font-size: 30px;
+    }
+    .promotexttwo {
+        font-size: 17px;
+    }
+    .promoButtonClass {
+        font-size: 17px;
+        width: 190px;
+    }
+    .explainLogoClass {
+        font-size: 30px;
+    }
+    .explainTextClass {
+        font-size: 17px;
+    }
+    .explainTextClass1 {
+        font-size: 17px;
+    }
+    .explainTextClass2 {
+        font-size: 17px;
+        width: 50%;
+    }
+    .img3Class {
+        width: 35%;
+        margin-right: 10%;
+    }
+    .offerLogoClass {
+        font-size: 30px;
+    }
+    .OfferExpplainBlock {
+        width: 70%;
+        margin-left: 3%;
+    }
+    .OfferLiClass {
+        font-size: 17px;
+    }
+    .resultClass {
+        margin-left: 3%;
+        font-size: 14px;
+        width: 60%;
+        display: block;
+    }
+    .img4Class {
+        width: 27%;
+    }
+    .priceCouchLogoClass {
+        font-size: 30px;
+    }
+    .priceLogoText {
+        font-size: 17px;
+    }
+    .priceLogoTextOne {
+        font-size: 17px;
+    }
+    .CostLogoClass {
+        font-size: 30px;
+    }
+    .CostListClass {
+        font-size: 17px;
+    }
+    .CostListClass1 {
+        font-size: 17px;
+    }
+    .QuestionnaireLogoClass {
+        font-size: 30px;
+    }
+    .QuestionnaireInputClass {
+        padding: 11px;
+    }
+    .QuestionnaireLiBlock {
+        font-size: 25px;
+    }
+    .QuestionnaireInputClass {
+        width: 93%;
+    }
+    .img7Class {
+        width: 33%;
+    }
+    .QuestionnaireRools {
+        font-size: 15px;
+    }
+    .coachesLogoClass {
+        font-size: 40px;
+    }
+    .priceTimelogo {
+        font-size: 20px;
+    }
+    .priceTimeText {
+        font-size: 17px;
+    }
+    .priceTimeNumbers {
+        font-size: 30px;
+    }
+    .priceTimeTextThree {
+        margin-top: 3%;
+    }
+    .priceTimeNumbersThree {
+        font-size: 30px;
+    }
+    .priceTimeListBlockOne {
+        width: 30%;
+    }
+    .priceTimeListBlockTwo {
+        width: 30%;
+    }
+    .priceTimeListBlockThree {
+        width: 30%;
+    }
+    .priceButtonOne {
+        font-size: 17px;
+        width: 62%;
+    }
+    .priceButtonTwo {
+        font-size: 17px;
+        width: 62%;
+    }
+    .priceButtonOneTwo {
+        font-size: 17px;
+        width: 62%;
+    }
+    .priceButtonTwoTwo {
+        font-size: 17px;
+        width: 62%;
+    }
+    .priceButtonThree {
+        font-size: 17px;
+        width: 62%;
+    }
+    .ContactsIconsClass {
+        width: 51%;
+    }
+    .FooterBlockClass img{
+         width: 25%;
+    }
+    .FooterText {
+        font-size: 17px;
+    }
+}

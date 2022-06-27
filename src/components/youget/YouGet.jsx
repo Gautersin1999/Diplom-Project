@@ -16,7 +16,7 @@ function YouGet() {
                         <div className='getBlockThree'>
                             <div className='getBlockFour'>
                                 <span className='modulLogo'>12</span>
-                                <p className='modilText'>тематических<br /> модулей</p>
+                                <p className='modulText'>тематических<br /> модулей</p>
                             </div>
                             <div className='getBlockFour'>
                                 <span className='modulLogo'>40</span>
@@ -28,7 +28,7 @@ function YouGet() {
                 <div className='youGetListBlosk'>
                     <div className='listBlockClass'>
                         <p className='ListClass'>1. Основы инвестиционной грамотности</p>
-                        <button className='listButton'>Изучть</button>
+                        <button className='listButton' onClick={()=>alert('Ждите выпуск курса!')}>Изучть</button>
                     </div>
 
                     <div className='listBlockClass'>

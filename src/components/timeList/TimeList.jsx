@@ -1,8 +1,12 @@
+import { useState } from 'react';
 import './TimeList.css'
 
 function TimeList(){
-    return(
-        <div className='marginBlock'>
+    const[showPrice,setShowPrice] = useState(false)
+    return(<>
+    {!showPrice && (<div className='ShowPriceBlock marginBlock' ><button onClick={() => setShowPrice(true)} className='promoButtonClass'>Узнать цены</button></div>)}
+        {showPrice &&  (<div className='marginBlock'>
+            <div className='ShowPriceBlock'><button onClick={() => setShowPrice(false)} className='promoButtonClass'>Скрыть цены</button></div>
                 <h1 className='coachesLogoClass'>Цены:</h1>
                 <div className='priceTimeListBlock'>
                     <div className='priceTimeListBlockOne'>
@@ -34,7 +38,8 @@ function TimeList(){
                         <button className='priceButtonThree'>Оставить заявку</button>
                     </div>
                 </div>
-            </div>
+            </div>)}
+            </>
     )
 }
 

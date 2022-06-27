@@ -53,6 +53,7 @@
   background-color: #DD990E;
   font-size: 30px;
   font-weight: bold;
+  padding: 0.5rem;
 }
 
 .modulText {
@@ -69,14 +70,16 @@
 .listBlockClass {
   border-bottom: 1px solid;
   display: flex;
-  align-items: flex-end;
-  justify-content: space-around;
+  align-items: center;
+  height: 10%;
+  width: 100%;
+  justify-content: space-between;
+  height: 14rem;
 }
 
 .ListClass {
   font-size: 20px;
-  margin-top: 20%;
-  margin-left: 8%;
+  margin-left: 3rem;
 }
 
 .listButton {
@@ -84,6 +87,7 @@
   font-size: 18px;
   background-color: #8C50FF;
   color: white;
-  height: 20%;
+  height: 25%;
   padding: 17px 48px;
+  margin-right: 3rem;
 }/*# sourceMappingURL=YouGet.css.map */
