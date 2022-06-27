@@ -10,9 +10,9 @@ import Questionnaire from '../questionnaire/questionnaire';
 import SocialIcons from '../socialIcons/SocialIcons';
 import TimeList from '../timeList/TimeList';
 import './MainPage.css'
-function MainPage(){
-    return(
-        <div>
+function MainPage() {
+  return (
+    <div>
       <Header />
       <Promo />
       <Explanation />
@@ -23,8 +23,8 @@ function MainPage(){
       <TimeList />
       <SocialIcons />
       <Footer />
-        </div>
-    )
+    </div>
+  )
 }
 
 export default MainPage;

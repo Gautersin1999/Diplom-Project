@@ -144,3 +144,73 @@
         font-size: 17px;
     }
 }
+
+
+@media(max-width:426px){
+    .HeaderText1Class, .HeaderTextClass {
+        font-size: 14px;
+    }
+    .LinkClass {
+        width: 45%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .headerClass {
+        flex-direction: column;
+        align-items: center;
+    }
+    .HeaderTextClass {
+        width: 80%;
+    }
+    .HeaderPhoneEmailClass {
+        margin-top: 3%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .FatherBlockClassTwo, .promoBlockOneClass, .childBlockClass, .OfferBlockOne, .priceBlockClass, .QuestionnaireLogoBlock {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .priceTimeListBlock button {
+        width: 81%;
+    }
+
+    .ContactsIconsClass {
+        width: 84%;
+    }
+    .FooterBlockClass {
+        flex-direction: column;
+    }    
+    .EducationBlockClass {
+        margin: 2rem 0 2rem 0;
+    }
+    .CostLogoClass {
+        text-align: center;
+    }
+    .resultClass, .OfferExpplainBlock {
+        margin-left: 12%;
+    }
+    .childTwoBlockClass {
+        width: 80%;
+    }
+    .whatThatExplanationClass, .getBlockOne, .listBlockClass {
+        flex-direction: column;
+    }
+    .getBlockOne {
+        align-items: center;
+    }
+    .waitText, .modulText {
+        font-size: 14px;
+    } 
+    .modulText {
+        display: block;
+        margin-top: 30px;
+    }
+    .listBlockClass {
+        align-items: center;
+        padding: 2rem 0 2rem 0;
+    }
+}

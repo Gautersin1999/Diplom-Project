@@ -13,7 +13,7 @@ function Header() {
     return (
         <div className='FatherBlockClassOne'>
             <div className='headerClass'>
-               <NavLink  to='/'> <img className='img1Class' src={img1} /></NavLink> 
+               <NavLink className='LinkClass' to='/'> <img className='img1Class' src={img1} /></NavLink> 
                 <div className='HeaderTextClass'>
                   <NavLink className='HeaderLinkOne' to='/pagetwo'> <p className='HeaderText1Class'>Что это ?</p></NavLink> 
                    <NavLink style={youGetLink} to='/pagethree'> <p className='HeaderText1Class'>Вы получаете</p></NavLink>
